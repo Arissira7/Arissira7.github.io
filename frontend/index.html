@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>博客网站</title>
+</head>
+<body>
+    <h1>我的博客</h1>
+    <div id="posts"></div>
+    <form id="postForm" enctype="multipart/form-data">
+        <input type="text" id="title" placeholder="标题" required>
+        <textarea id="content" placeholder="内容" required></textarea>
+        <input type="file" id="video" accept="video/*" required>
+        <button type="submit">发布</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html> 
